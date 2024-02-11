@@ -1,0 +1,5 @@
+usage: monitor.py [-h] pid
+monitor.py: error: unrecognized arguments: --pid
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.89it/s]100%|██████████| 1/1 [00:00<00:00,  2.89it/s]
+0it [00:00, ?it/s]1it [00:01,  1.69s/it]1it [00:01,  1.69s/it]
+/opt/slurmnfs/slurmd/lhotse/job4405689/slurm_script: line 39: kill: (3006747) - No such process

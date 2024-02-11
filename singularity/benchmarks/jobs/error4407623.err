@@ -1,0 +1,2 @@
+  0%|          | 0/1 [00:00<?, ?it/s]/pialnn/singularity/benchmarks/bm.predict.sh: line 5: 3072905 Killed                  python bm.predict.py --data_path=/data-pialnn/ --hemisphere=lh --save_mesh_eval=True --model_path='./ckpts/model/pialnn_model_lh_200epochs.pt'
+slurmstepd: error: Detected 2 oom-kill event(s) in StepId=4407623.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

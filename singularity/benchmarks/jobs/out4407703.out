@@ -1,0 +1,9 @@
+aa
+bb
+cuda is available True
+device_name cuda:0
+cuda:0
+----------------------------
+Start loading dataset ...
+Command failed, error and execution time logged to memory_usage_failure.csv.
+PyTorch inference and monitoring have completed.

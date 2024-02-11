@@ -1,0 +1,22 @@
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  2.81it/s]100%|██████████| 1/1 [00:00<00:00,  2.81it/s]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 308, in _check_seekable
+    f.seek(f.tell())
+AttributeError: 'NoneType' object has no attribute 'seek'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bm.predict.py", line 42, in <module>
+    model.load_state_dict(torch.load(config.model_path,
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 235, in _open_file_like
+    return _open_buffer_reader(name_or_buffer)
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 220, in __init__
+    _check_seekable(buffer)
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 311, in _check_seekable
+    raise_err_msg(["seek", "tell"], e)
+  File "/opt/miniconda3/envs/pialnn/lib/python3.8/site-packages/torch/serialization.py", line 304, in raise_err_msg
+    raise type(e)(msg)
+AttributeError: 'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.

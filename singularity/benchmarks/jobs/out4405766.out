@@ -1,0 +1,24 @@
+aa
+bb
+cuda is available True
+device_name cuda:0
+cuda:0
+----------------------------
+Start loading dataset ...
+Finish loading dataset. There are total 1 subjects.
+----------------------------
+Start loading model ...
+Finish loading model
+----------------------------
+Start evaluation ...
+v_gt.shape torch.Size([1, 121381, 3])
+f_gt.shape torch.Size([1, 242758, 3])
+v_in.shape torch.Size([1, 121381, 3])
+f_in.shape torch.Size([1, 121381, 3])
+sub_id 201818
+vpred torch.Size([1, 121381, 3])
+f_in torch.Size([1, 242758, 3])
+v_pred_eval (121381, 3)
+f_pred_eval (242758, 3)
+n_pred_eval (121381, 3)
+PyTorch inference and monitoring have completed.

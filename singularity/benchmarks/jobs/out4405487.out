@@ -1,0 +1,94 @@
+aa
+bb
+----------------------------
+Start loading dataset ...
+Finish loading dataset. There are total 1 subjects.
+----------------------------
+Start loading model ...
+
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+Finish loading model
+
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+----------------------------
+pial model
+
+
+
+
+
+model size: 3.768MB
+
+
+
+
+
+0 - set device
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - load configuration
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - load dataset
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - load model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - evaluation
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+Start evaluation ...
+
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+PyTorch inference and monitoring have completed.
